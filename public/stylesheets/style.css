@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: #6a6a6a;
+}
+#main {
+  height: 800px;
+  width: 480px;
+  background: #ffffff;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+.nav {
+  height: 50px;
+  width: 400px;
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 30px;
+  justify-content: space-between;
+  padding: 20px 20px;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  background: white;
+}
+.nav i {
+  width: 30px;
+}
+.nav div {
+  display: flex;
+  gap: 10px;
+}
+.nav span {
+  background: #d6d6d6;
+  padding: 0 10px;
+  color: #6a6a6a;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
